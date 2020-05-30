@@ -1,0 +1,19 @@
+** Theme................
+
+1.  Scrollable page structure.
+2.  Add pics and stories of travelling (Carousel).
+3.  Non-IT projects and achievements (Efficycle and line followers). 
+    Along with filters for name, date, techStack.
+4.  Writings (Paper)
+5.  chat bot for more doubts.
+6.  Career Path 
+7.  Game on the first page that destroys all the text.
+
+
+Tabs: 
+1. About
+2. projects (will have sub tab)
+3. Career Path
+4. Writings
+5. pics
+ 

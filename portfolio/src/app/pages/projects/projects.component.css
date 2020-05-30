@@ -1,0 +1,14 @@
+.heading{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.projectsContainer{
+    width: 80%;
+    margin-left: 100px;
+    margin: auto;
+}
+
+project{
+    margin: 10px;
+}

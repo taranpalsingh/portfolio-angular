@@ -1,0 +1,81 @@
+.sidebar{
+    width: 100px;
+    // width: 300px;
+    height: 100vh;
+    background-color: #1E1E30;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #6C757D;
+    z-index: 10;
+    box-shadow: 1px 0px 8px 1px rgb(0,0,0,0.2)
+}
+
+.label{
+    display: none;
+    // display: block;
+}
+
+.sidebar:hover{
+    width: 300px;
+    .label{
+        display: block;
+    }
+}
+
+.name{
+    font-size: 16px;
+    font-weight: 900;
+    color: White;
+    width: 100px;
+    margin-left: 0;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.nav-items{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.nav-item:hover{
+    .label{
+        background-color: rgba(108,117,125,0.12549);
+    }
+}
+
+
+.nav-item{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    .icon{
+        width: 100px;
+        text-align: center;
+        align-self: center;
+        cursor: pointer;
+        .fa{
+            font-size: 28px;
+            line-height: 76px;
+        }
+    }
+    .label{
+        width: calc(100% - 100px);
+        text-align: center;
+        font-size: large;
+        margin: 0;
+        height: 76px;
+        line-height: 76px;
+        cursor: pointer;
+        p{
+            margin: 0;
+        }
+    }
+}
+
+
+// This is just for the time being
+// need to give this color to the select tab.
+.nav-item:first-child{
+    color: #4c75f2 !important;
+}

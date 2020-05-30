@@ -1,0 +1,15 @@
+<div class="sidebar">
+    <div class="name">
+        TARAN 
+    </div>
+    <div class="nav-items">
+        <div class="nav-item" *ngFor="let navItem of navItems">
+            <div class="icon">
+                <i class="fa" [class]="navItem.icon"></i>
+            </div>
+            <div class="label">
+                <p>{{navItem.label}}</p>
+            </div>
+        </div>
+    </div>
+</div>

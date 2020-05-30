@@ -1,0 +1,10 @@
+.main-panel{
+    margin-left: 100px;
+    width: calc(100vw - 100px);
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #161625;
+    color: #6C757D;
+}
