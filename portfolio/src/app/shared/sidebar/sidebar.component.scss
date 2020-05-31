@@ -79,3 +79,9 @@
 .nav-item:first-child{
     color: #4c75f2 !important;
 }
+
+@media(max-width: 600px){
+    .sidebar{
+        display: none;
+    }
+}

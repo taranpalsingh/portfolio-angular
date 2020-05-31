@@ -1,0 +1,51 @@
+.project{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #1E1E30;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.2);
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.description{
+    margin: 0 10px;
+
+    .name{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+// .project{
+//     width: 100%;
+//     padding: 15px;
+//     display: flex;
+//     background-color: #1E1E30;
+//     overflow: hidden;
+// }
+
+// .img{
+//     width: 200px;
+//     height: 200px;
+//     margin: 10px;
+//     border-radius: 5px;
+// }
+
+// .description{
+//     margin: 0 10px;
+
+//     .name{
+//         margin-top: 10px;
+//     }
+// }
+
+

@@ -1,14 +1,33 @@
+.projects{
+    text-align: center;
+}
+
 .heading{
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
 }
 
 .projectsContainer{
-    width: 80%;
-    margin-left: 100px;
-    margin: auto;
+    width: calc(100% - 100px);
+    /* margin-left: 100px; */
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    padding: 0 2rem;
 }
 
-project{
-    margin: 10px;
+.searchBar{
+    width: 500px;
+    height: 70px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(0,0,0,0.2);
+    background-color: #1E1E30;
+}
+
+@media (max-width: 600px){
+    .projectsContainer{
+        grid-template-columns: 80%;
+    }
 }
