@@ -2,19 +2,19 @@
     text-align: center;
 }
 
-.heading{
+/* .heading{
     font-size: x-large;
     text-align: center;
-}
+} */
 
 .projectsContainer{
-    width: calc(100% - 100px);
+    width: calc(100% - 8rem);
     /* margin-left: 100px; */
     /* margin: auto; */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 4rem;
-    padding: 0 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 0rem; */
+    padding: 0 4rem;
 }
 
 .searchBar{
@@ -23,7 +23,7 @@
     margin: 30px auto;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgb(0,0,0,0.2);
-    background-color: #1E1E30;
+    background-color: #2a2a2a;
 }
 
 @media (max-width: 600px){
