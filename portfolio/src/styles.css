@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+/* @import "~bootstrap/scss/bootstrap"; */
+
 body {
   font-family: MontSerrat,Tahoma,Arial,sans-serif;
 }
@@ -8,4 +10,17 @@ body {
 
 ::-webkit-scrollbar {
   width: 0px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.carousel-control-prev{
+  background-color: gray !important;
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.carousel-control-next {
+  background-color: gray !important;
+  -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
 }

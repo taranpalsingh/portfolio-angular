@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Constants } from './projects.constants';
+import { ProjectModel } from '../../models/project.model';
 
 @Component({
   selector: 'app-projects',
@@ -9,7 +10,8 @@ import { Constants } from './projects.constants';
 export class ProjectsComponent implements OnInit {
   
   constants = Constants;
-  projects = Constants.projects;
+  projects: Array<ProjectModel> = Constants.projects;
+  
   constructor() { }
 
   ngOnInit(): void {

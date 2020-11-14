@@ -1,0 +1,25 @@
+<div class="project">
+  <h2 class="title">{{data.project.title}}</h2>
+  <div class="divider"></div>
+  <app-carousel [images]="images"></app-carousel>
+  <!-- <img [src]="data.project.images[0]" alt=""> -->
+  <div class="actions">
+    <button mat-raised-button *ngIf="data.project.url"
+      color="primary" class="url">
+      <a [href]="data.project.url">
+        <i class="fa fa-external-link button-icon"></i>
+        Visit the Website
+      </a>
+    </button>
+    <button mat-raised-button *ngIf="data.project.url" 
+      color="accent" class="code">
+      <a [href]="data.project.url">
+        <i class="fa fa-code button-icon"></i>
+        View Code
+      </a>
+    </button>
+  </div>
+  <div class="description">
+    {{data.project.description}}
+  </div>
+</div>
