@@ -24,3 +24,22 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   background-color: gray !important;
   -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
 }
+
+.page-heading {
+  font-size: 3vw !important;
+  text-align: center;
+  margin: 3vw auto !important;
+  color: white;
+
+  .underline {
+    width: 200px;
+    height: 3px;
+    background-color: white;
+    margin: 2vw auto;
+  }
+}
+
+.chartjs-size-monitor {
+  width: 400px;
+  height: 100px;
+}
