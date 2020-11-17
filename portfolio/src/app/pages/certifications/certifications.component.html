@@ -1,0 +1,14 @@
+<div class="certificates">
+  
+  <div class="page-heading">
+    <p class="title">Certificates</p>
+    <div class="underline"></div>
+  </div>
+
+  <div class="certificates-container">
+    <div class="certificate" *ngFor="let certificate of certificates">
+      <img [src]="certificate.image" alt="">
+      <p class="title">{{certificate.title}}</p>
+    </div>
+  </div>
+</div>

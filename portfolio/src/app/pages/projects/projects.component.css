@@ -7,8 +7,8 @@
     text-align: center;
 } */
 
-.projectsContainer{
-    width: calc(100% - 8rem);
+.projects-container{
+    width: 100%;
     /* margin-left: 100px; */
     /* margin: auto; */
     display: grid;
@@ -27,7 +27,7 @@
 }
 
 @media (max-width: 600px){
-    .projectsContainer{
+    .projects-container{
         grid-template-columns: 80%;
     }
 }

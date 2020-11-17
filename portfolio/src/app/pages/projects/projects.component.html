@@ -1,9 +1,14 @@
 <div class="projects">
-    <h3 class="heading">Projects</h3>
+    
+    <div class="page-heading">
+        <p class="title">Projects</p>
+        <div class="underline"></div>
+    </div>
     <!-- <div class="searchBar"> -->
-        <input type="text" class="searchBar">
+        <!-- <input type="text" class="searchBar"> -->
     <!-- </div> -->
-    <div class="projectsContainer">
+    <app-pie-chart></app-pie-chart>
+    <div class="projects-container">
         <project *ngFor="let project of projects" 
              [project]="project">
         </project>

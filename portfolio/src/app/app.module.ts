@@ -17,6 +17,11 @@ import { ProjectComponent } from './pages/projects/project/project.component';
 import { ProjectDialogComponent } from './pages/projects/project/project-dialog/project-dialog.component';
 import { CarouselComponent } from './UI/carousel/carousel.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FeatureCardComponent } from './pages/about/feature-card/feature-card.component';
+import { CompaniesComponent } from './pages/about/companies/companies.component';
+import { PieChartComponent } from './UI/pie-chart/pie-chart.component';
+import { ChartsModule } from 'ng2-charts';
+import { CertificationsComponent } from './pages/certifications/certifications.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +35,11 @@ import { AppRoutingModule } from './app-routing.module';
     FooterComponent,
     ProjectComponent,
     ProjectDialogComponent,
-    CarouselComponent
+    CarouselComponent,
+    FeatureCardComponent,
+    CompaniesComponent,
+    PieChartComponent,
+    CertificationsComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +47,8 @@ import { AppRoutingModule } from './app-routing.module';
     AppRoutingModule,
     MatDialogModule,
     MatButtonModule,
-    NgbModule
+    NgbModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

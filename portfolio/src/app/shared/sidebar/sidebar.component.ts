@@ -7,28 +7,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
-  navItems = [
+ navItems = [
     {
       icon: "fa-home",
+      route: "home",
       label: "Home"
     },
     {
       icon: "fa-user",
+      route: "about",
       label: "About"
     },
     {
       icon: "fa-file-code-o",
+      route: "projects",
       label: "Projects"
     },
     {
       icon: "fa-book",
+      route: "writings",
       label: "Writings"
     },
     {
       icon: "fa-picture-o",
+      route: "pictures",
       label: "Pictures"
     }
-  ]
+  ] 
+
   constructor() { }
 
   ngOnInit(): void {
