@@ -1,0 +1,42 @@
+.features {
+  width: calc(100% - 80px);
+  height: auto;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  margin: auto;
+}
+
+.feature-cards {
+  /* width: 23%;
+  margin: 1%; */
+  /* min-width: 200px; */
+  /* margin: 10px; */
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+  background-color: #323232;
+  padding: 20px 30px;
+}
+
+.icons{
+  background-color: #04C2C9;
+  width: 4rem;  
+  height: 4rem;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  border-radius: 50%;
+}
+
+.iconify{
+  width: 2rem;
+  height: 2rem;    
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
