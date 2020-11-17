@@ -1,0 +1,21 @@
+.certificate {
+  text-align: center;
+  // padding-bottom: 30px;
+
+  .title {
+    font-weight: 500;
+  }
+
+  .divider {
+    width: 90%;
+    height: 1px;
+    background-color: gray;
+    margin: 8px auto 20px auto;
+  }
+
+  img {
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.5);
+  }
+}

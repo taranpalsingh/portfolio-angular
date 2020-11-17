@@ -25,8 +25,8 @@ export class SidebarComponent implements OnInit {
     },
     {
       icon: "fa-book",
-      route: "writings",
-      label: "Writings"
+      route: "certificates",
+      label: "Certificates"
     },
     {
       icon: "fa-picture-o",

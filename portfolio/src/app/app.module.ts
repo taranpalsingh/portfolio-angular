@@ -22,6 +22,8 @@ import { CompaniesComponent } from './pages/about/companies/companies.component'
 import { PieChartComponent } from './UI/pie-chart/pie-chart.component';
 import { ChartsModule } from 'ng2-charts';
 import { CertificationsComponent } from './pages/certifications/certifications.component';
+import { CertificateDialogComponent } from './pages/certifications/certificate-dialog/certificate-dialog.component';
+import { BackgroundComponent } from './pages/home/background/background.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { CertificationsComponent } from './pages/certifications/certifications.c
     FeatureCardComponent,
     CompaniesComponent,
     PieChartComponent,
-    CertificationsComponent
+    CertificationsComponent,
+    CertificateDialogComponent,
+    BackgroundComponent
   ],
   imports: [
     BrowserModule,
