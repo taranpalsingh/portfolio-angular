@@ -1,0 +1,76 @@
+.profileImg {
+  height: 70vh;
+  border-radius: 50%;
+  // margin-bottom: 13vh;
+}
+
+.intro {
+  color: #6C757D;
+
+  h2 {
+    font-size: 2vw;
+  }
+
+  p {
+    font-size: 1.4vw;
+    line-height: 170%;
+  }
+
+  a {
+    color: #04C2C9;
+    font-size: 1.4vw;
+  }
+
+  .highlight {
+    font-weight: 500;
+    cursor: pointer;
+    margin: 2px;
+  }
+}
+
+// .fullBar{
+//   background-color: #eee;
+//   color: #666666;
+//   width: 100%;
+//   max-width: 600px;
+//   height: 28px;
+//   position: relative;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: flex-end;
+// }
+
+// .techName{
+//   background-color: #04C2C9;
+//   color: white;
+//   width: 110px;
+//   height: 28px;
+//   top: 0;
+//   left: 0;
+//   position: absolute;
+// }
+
+// .techValue{
+//   background-color: #00A1A7;
+//   height: 28px;
+//   top: 0;
+//   left: 0;
+//   position: absolute;
+//   transition: 2s 0.1s width ease-in-out;
+// }
+
+// .percentage{
+//   right: 10%;
+// }
+
+// #technologies{
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+
+.associations {
+  
+}
