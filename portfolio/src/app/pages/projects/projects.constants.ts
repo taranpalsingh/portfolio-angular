@@ -3,13 +3,38 @@ import { ProjectModel } from '../../models/project.model';
 export const Constants = {
   projects : [
     {
+        url:"https://qa.guptamedicalstore.in/",
+        name:"E-Commerce Platform",
+        title:"Socialize - Social Media Automation Tool",
+        images:["../../../assets/images/Socialize.png","../../../assets/images/Todo.PNG", "../../../assets/images/Todo.PNG"],
+        description:"This one was my second long term freelance project in which I built a pharmaceutical e-commerce platform for Alchem Synergy using Angular, NestJs and MySql. It is still in the final stages right now and will soon be deployed for use. Apart from the main technology stack, It also uses Paytm's Payment Gateway, Nx Suite to develop monorepo projects and Elastic Search APIs for a better searching experience through the available products.", 
+        technologies: ["Angular", "Chart.Js", "Node", "Rest API", "RxJs", "NX Monorepo", "Elastic"]
+    },
+    {
+        url:"https://github.com/taranpalsingh/social__media_automation",
+        name:"Social Media Automation APIs",
+        title:"Socialize - Social Media Automation Tool",
+        images:["../../../assets/images/Socialize.png","../../../assets/images/Todo.PNG", "../../../assets/images/Todo.PNG"],
+        description:"This program lets you publish posts (Images in which you want to write some texts) to your social media accounts (Twitter, Facebook and Instagram). You just have to create a template of the post in the HTML file and you are good to go. This is helpful mostly for bloggers who want to post a specific template on a dailly basis. This program is built on Node.js.", 
+        technologies: ["HTML5", "CSS", "RxJs", "Angular", "Chart.Js", "Node", "Rest API"]
+    },
+    {
+        url:"http://prepaid.kiteqa.com/",
+        name:"Kite Prepaid",
+        title:"Socialize - Social Media Automation Tool",
+        images:["../../../assets/images/Socialize.png","../../../assets/images/Todo.PNG", "../../../assets/images/Todo.PNG"],
+        description:"This is a resposive website made for Kite's Prepaid services and includes a dashboard view that is built using Angular. It has miultiple screens and uses state of the art architecture. It's UI is self intuitive as well as filled with animations and smooth transitions. I was mainly responsible for developing the website using the UI/UX designs.", 
+        technologies: ["HTML5", "CSS", "RxJs", "Angular", "Chart.Js", "Node", "Rest API"]
+    },
+    {
         url:"https://github.com/cybergroupdevs/BtB_PocketTanks.git",
         name:"Socialize - Automation Tool",
         title:"Socialize - Social Media Automation Tool",
         images:["../../../assets/images/Socialize.png","../../../assets/images/Todo.PNG", "../../../assets/images/Todo.PNG"],
         description:"It is an analysis tool for all your social media platforms, that displays analysis after applying machine learning algorithms to all the posts and comments that a person receives. Also, allows the user to schedule posts for a fututre time. This application is built using Angular, MongoDB, Node.Js and Python.", 
         technologies: ["HTML5", "CSS", "RxJs", "Angular", "Chart.Js", "Node", "Rest API"]
-    },{
+    },
+    {
         url:"https://todotest-taran.netlify.com/",
         name:"Todo - Task Viewer",
         title:"Todo - Task Viewer",
@@ -17,7 +42,8 @@ export const Constants = {
         images:["../../../assets/images/Todo.PNG"],
         description:"This Task Viewer lets users create their personalized accounts and enables them to add, edit, or view their tasks in an interactive manner with an easy to use Interface. This application is built using Angular, MongoDB and Node.Js.", 
         technologies: ["HTML5", "CSS", "RxJs", "Angular", "Node", "MongoDB", "Rest API"]
-    },{
+    },
+    {
         url:"https://bouncingballs.netlify.com/",
         name:"Interactive Bouncing balls",
         title:"Interactive Bouncing balls",
@@ -58,13 +84,6 @@ export const Constants = {
         description:"It is a dodge game in which a user has to jump in order to dodge the obstacles. This is built using Vanilla Javascript using the canvas library." , 
         technologies: ["HTML5", "CSS", "Vanilla Js", "Canvas", "Animations"]
     },
-    // {
-    //     url:"https://github.com/taranpalsingh/Calcii",
-    //     name:"Calculator",
-    //     images:"../../../assets/images/Calci.PNG",
-    //     description:"It is a fun project which gives the users access to tooggle the controls and make the balls move in any manner as they wish. It is a fun project which gives the users access to tooggle the controls and make the balls move in any manner as they wish." , 
-    //     technologies: ["HTML5", "CSS", "RxJs", "Angular", "Node", "MongoDB"]
-    // },
     {
         url:"https://github.com/taranpalsingh/30MinTask",
         name:"Tic Tac Toe",

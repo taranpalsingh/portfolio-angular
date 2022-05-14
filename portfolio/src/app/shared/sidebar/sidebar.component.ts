@@ -30,8 +30,8 @@ export class SidebarComponent implements OnInit {
     },
     {
       icon: "fa-picture-o",
-      route: "pictures",
-      label: "Pictures"
+      route: "writings",
+      label: "Writings"
     }
   ] 
 

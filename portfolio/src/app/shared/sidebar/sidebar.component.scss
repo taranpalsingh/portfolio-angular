@@ -15,7 +15,6 @@
 
 .label{
     display: none;
-    // display: block;
 }
 
 .sidebar:hover{
@@ -28,7 +27,7 @@
 .name{
     font-size: 16px;
     font-weight: 900;
-    color: White;
+    color: #04C2C9;
     width: 100px;
     margin-left: 0;
     text-align: center;
@@ -79,9 +78,9 @@
 
 // This is just for the time being
 // need to give this color to the select tab.
-.nav-item:first-child{
+.nav-item.active {
     // color: #4c75f2 !important;
-    color: white !important;
+    color: #04C2C9 !important;
 }
 
 @media(max-width: 600px){

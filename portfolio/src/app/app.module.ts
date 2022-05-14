@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -20,10 +19,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { FeatureCardComponent } from './pages/about/feature-card/feature-card.component';
 import { CompaniesComponent } from './pages/about/companies/companies.component';
 import { PieChartComponent } from './UI/pie-chart/pie-chart.component';
-import { ChartsModule } from 'ng2-charts';
+// import { ChartsModule } from 'ng2-charts';
 import { CertificationsComponent } from './pages/certifications/certifications.component';
 import { CertificateDialogComponent } from './pages/certifications/certificate-dialog/certificate-dialog.component';
 import { BackgroundComponent } from './pages/home/background/background.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { WritingsComponent } from './pages/writings/writings.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { BackgroundComponent } from './pages/home/background/background.componen
     PieChartComponent,
     CertificationsComponent,
     CertificateDialogComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    WritingsComponent
   ],
   imports: [
     BrowserModule,
@@ -52,7 +54,7 @@ import { BackgroundComponent } from './pages/home/background/background.componen
     MatDialogModule,
     MatButtonModule,
     NgbModule,
-    ChartsModule
+    // ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

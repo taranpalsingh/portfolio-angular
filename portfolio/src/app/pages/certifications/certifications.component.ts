@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { CertificateDialogComponent } from './certificate-dialog/certificate-dialog.component';
-
+import { Constants } from './certifications.constants';
 @Component({
   selector: 'app-certifications',
   templateUrl: './certifications.component.html',
@@ -9,28 +9,18 @@ import { CertificateDialogComponent } from './certificate-dialog/certificate-dia
 })
 export class CertificationsComponent implements OnInit {
 
-  certificates = [
-    {
-      title: 'MongoDB University: MongoDB Basics',
-      image: '../../../assets/images/certificates/mongoDb.jpg'
-    },
-    {
-      title: 'University of Michigan: Python Data Structures',
-      image: '../../../assets/images/certificates/pythonDS.jpeg'
-    },
-    {
-      title: 'University of Michigan: Applied Machine Learning in Python',
-      image: '../../../assets/images/certificates/AMLPython.jpeg'
-    },
-    {
-      title: 'deepLearning.ai: Introduction to TensorFlow',
-      image: '../../../assets/images/certificates/tensorFlow.jpeg'
-    }
-  ]
-
+  certificates = [];
+  
   constructor(public dialog: MatDialog) {}
 
   ngOnInit(): void {
+    let index = 0;
+    for (const project of Constants.Certificates) {
+      index++;
+      setTimeout(() => {
+        this.certificates.push(project);
+      }, index*200);
+    }
   }
 
   openDialog(certificate): void {

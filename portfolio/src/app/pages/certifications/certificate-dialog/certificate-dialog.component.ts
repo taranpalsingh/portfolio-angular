@@ -22,7 +22,6 @@ export class CertificateDialogComponent {
     @Inject(MAT_DIALOG_DATA) public data: CertificateDialogData
   ) {
     this.certificate = data["certificate"];
-    debugger
   }
 
   onNoClick(): void {

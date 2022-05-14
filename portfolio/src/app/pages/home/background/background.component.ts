@@ -13,9 +13,9 @@ export class BackgroundComponent implements OnInit {
   W = window.innerWidth;
   H = window.innerHeight;
   
-  speed = 0.3;
+  speed = 0.2;
   balls = [];
-  initialBalls = 300;
+  initialBalls = 400;
   
   private ctx: CanvasRenderingContext2D;
   

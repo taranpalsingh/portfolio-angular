@@ -1,0 +1,19 @@
+<div class="writings">
+  
+  <div class="page-heading">
+    <p class="title">Writings</p>
+    <div class="underline"></div>
+  </div>
+
+  <div class="writings-container">
+    <div class="writing img img-fluid fade-in" *ngFor="let writing of writings" 
+      (click)="navigateUrl(writing)">
+      <img [src]="writing.image" alt="">
+      <p class="title">{{writing.title}}</p>
+    </div>
+  </div>
+
+  <p class="footer fade-in">
+    many more to come.....
+  </p>
+</div>

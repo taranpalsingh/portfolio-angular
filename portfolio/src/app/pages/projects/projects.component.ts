@@ -10,11 +10,17 @@ import { ProjectModel } from '../../models/project.model';
 export class ProjectsComponent implements OnInit {
   
   constants = Constants;
-  projects: Array<ProjectModel> = Constants.projects;
+  projects: Array<ProjectModel> = [];
   
   constructor() { }
 
   ngOnInit(): void {
+    let i = 0;
+    for (const project of Constants.projects) {
+      i++;
+      setTimeout(() => {
+        this.projects.push(project);
+      }, i*200);
+    }
   }
-
 }

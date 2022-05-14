@@ -6,14 +6,14 @@
   </div>
 
   <div class="certificates-container">
-    <div class="certificate img img-fluid" *ngFor="let certificate of certificates"
+    <div class="certificate img img-fluid fade-in" *ngFor="let certificate of certificates"
       (click)="openDialog(certificate)">
       <img [src]="certificate.image" alt="">
       <p class="title">{{certificate.title}}</p>
     </div>
   </div>
 
-  <p class="footer">
+  <!-- <p class="footer">
     many more to come.....
-  </p>
+  </p> -->
 </div>

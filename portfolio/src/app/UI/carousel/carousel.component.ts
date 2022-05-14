@@ -22,9 +22,6 @@ export class CarouselComponent implements OnInit {
 
   ngOnInit() {  
     this.images = [...this.images, ...Constants.projects[0].images];
-    console.log();
-    debugger
-    
   }  
   
 }
