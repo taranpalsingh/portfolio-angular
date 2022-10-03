@@ -2,22 +2,14 @@
     text-align: center;
 }
 
-/* .heading{
-    font-size: x-large;
-    text-align: center;
-} */
-
 .title {
     color: white;
 }
 
 .projects-container{
     width: 100%;
-    /* margin-left: 100px; */
-    /* margin: auto; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-gap: 0rem; */
     padding: 0 4rem;
 }
 
@@ -32,6 +24,7 @@
 
 @media (max-width: 600px){
     .projects-container{
-        grid-template-columns: 80%;
+        grid-template-columns: none;
+        padding: 0 1rem;
     }
 }

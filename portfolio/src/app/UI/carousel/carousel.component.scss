@@ -3,6 +3,12 @@ img {
   height: 250px;
 }
 
+@media (max-width: 600px){
+  img {
+    height: 210px;
+  }
+}
+
 // .shadow {
 //   background-color: gray;
 //   position: absolute;

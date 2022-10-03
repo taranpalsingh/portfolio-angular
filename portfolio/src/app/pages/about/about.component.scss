@@ -75,3 +75,32 @@
 .associations {
   
 }
+
+@media (max-width: 600px){
+
+  .profileImg {
+    height: 40vh;
+  }
+
+  
+  .intro {
+
+    p {
+      font-size: 1.4em;
+    }
+
+    a {
+      font-size: 1.4em;
+    }
+
+    .highlight {
+      font-weight: 500;
+      cursor: pointer;
+      margin: 2px;
+    }
+  }
+
+  .about {
+    padding-bottom: 25px;
+  }
+}

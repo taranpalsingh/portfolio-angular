@@ -5,8 +5,19 @@
     position: absolute;
     top: 0;
     left: 0;
-    /* background-color: #181829; */
     background-color: #2a2a2a;
-    /* background-color: #222831; */
     color: #6C757D;
+}
+
+@media (max-width: 600px){
+    .main-panel{
+        margin: 0;
+        width: 100vw;
+        min-height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #2a2a2a;
+        color: #6C757D;
+    }
 }

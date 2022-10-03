@@ -6,14 +6,14 @@
   <div class="actions">
     <button mat-raised-button *ngIf="data.project.url"
       color="primary" class="url">
-      <a [href]="data.project.url">
+      <a [href]="data.project.url" class="btn-text">
         <i class="fa fa-external-link button-icon"></i>
         Visit the Website
       </a>
     </button>
     <button mat-raised-button *ngIf="data.project.url" 
       color="accent" class="code">
-      <a [href]="data.project.url">
+      <a [href]="data.project.url" class="btn-text">
         <i class="fa fa-code button-icon"></i>
         View Code
       </a>

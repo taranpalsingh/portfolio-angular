@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
+import { AppService } from 'src/app/app.service';
 import { ProjectDialogComponent } from './project-dialog/project-dialog.component';
 
 @Component({
@@ -11,13 +12,20 @@ export class ProjectComponent {
 
   @Input() project;
   
-  constructor(public dialog: MatDialog) {}
+  constructor(
+    public dialog: MatDialog,
+    public appService: AppService,
+  ) {}
 
   openDialog(): void {
+
+    let width = '40vw';
+    if(this.appService.isMobileScreen()) {
+      width = '90vw';
+    }
+
     const dialogRef = this.dialog.open(ProjectDialogComponent, {
-      // width: '100vw',
-      // height: '100vh',
-      width: '40vw',
+      width: width,
       height: '90vh',
       data: {project: this.project}
     });

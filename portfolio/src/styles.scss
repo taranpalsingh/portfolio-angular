@@ -97,11 +97,32 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 @-ms-keyframes fadeIn {
-  0% {
-    opacity:0;
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
   }
-  100% {
-    opacity:1;
 }
+
+@media (max-width: 600px) {
+  
+  .page-heading {
+    font-size: 6vw !important;
+    text-align: center;
+    margin: 5vw auto !important;
+    
+    .title {
+      color: white;
+      margin-bottom: 1vh;
+    }
+
+    .underline {
+      width: 3em;
+      height: 2px;
+      background-color: white;
+      margin: 1vw auto;
+    }
+  }
 
 }

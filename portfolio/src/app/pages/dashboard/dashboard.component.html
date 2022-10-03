@@ -1,4 +1,10 @@
-<app-sidebar></app-sidebar>
+<!-- navbar -->
+<app-navbar *ngIf="isMobileScreen"></app-navbar>
+<app-sidebar *ngIf="!isMobileScreen"></app-sidebar>
+
+<!-- main-content -->
 <div class="main-panel">
     <router-outlet></router-outlet>
 </div>
+
+<!-- footer -->

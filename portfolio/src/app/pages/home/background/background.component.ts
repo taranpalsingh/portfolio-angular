@@ -73,7 +73,7 @@ export class Ball {
   W = window.innerWidth;
   H = window.innerHeight;
   
-  radius = Math.random()*(this.W/2) + 50;
+  radius = Math.random()*(this.W) + 50;
   x = Math.random()*(this.W); //+ this.radius;
   y = Math.random()*(this.H); //+ 1.2*this.innerRadius;
   newX = 0;

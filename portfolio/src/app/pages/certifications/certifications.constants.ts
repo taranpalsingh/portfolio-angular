@@ -1,8 +1,8 @@
 export const Constants = {
   Certificates: [
     {
-      title: 'MongoDB University: MongoDB Basics',
-      image: '../../../assets/images/certificates/mongoDb.jpg'
+      title: 'University of California San Diego: Algorithmic Toolbox',
+      image: '../../../assets/images/certificates/AlgorithmicToolbox.jpeg'
     },
     {
       title: 'University of Michigan: Python Data Structures',
@@ -15,6 +15,10 @@ export const Constants = {
     {
       title: 'deepLearning.ai: Introduction to TensorFlow',
       image: '../../../assets/images/certificates/tensorFlow.jpeg'
-    }
+    },
+    {
+      title: 'MongoDB University: MongoDB Basics',
+      image: '../../../assets/images/certificates/mongoDb.jpg'
+    },
   ]
 }

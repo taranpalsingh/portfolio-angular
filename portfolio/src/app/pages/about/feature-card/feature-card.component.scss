@@ -40,3 +40,28 @@
   right: 0;
   margin: auto;
 }
+
+
+@media (max-width: 600px){
+
+  .features {
+    width: calc(100% - 40px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  
+  .feature-cards {
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgb(0,0,0,0.2);
+    background-color: #323232;
+    padding: 8px;
+
+    h3 {
+      margin-bottom: 5px;
+      font-size: 1.4em;
+      font-weight: 500;
+    }
+  }
+
+}
