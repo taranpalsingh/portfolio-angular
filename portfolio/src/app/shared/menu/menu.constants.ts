@@ -1,13 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { constants } from "buffer";
 
-@Component({
-  selector: 'app-sidebar',
-  templateUrl: './sidebar.component.html',
-  styleUrls: ['./sidebar.component.scss']
-})
-export class SidebarComponent implements OnInit {
-
- navItems = [
+export const Constants = {
+   navItems: [
     {
       icon: "fa-home",
       route: "home",
@@ -34,10 +28,5 @@ export class SidebarComponent implements OnInit {
       label: "Writings"
     }
   ] 
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  
 }
