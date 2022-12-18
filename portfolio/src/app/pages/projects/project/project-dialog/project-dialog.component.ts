@@ -1,4 +1,4 @@
-import {Component, Inject, Renderer2} from '@angular/core';
+import {Component, Inject, OnDestroy, Renderer2} from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { ProjectModel } from 'src/app/models/project.model';
@@ -13,7 +13,7 @@ export interface ProjectDialogData {
   templateUrl: './project-dialog.component.html',
   styleUrls: ['./project-dialog.component.scss']
 })
-export class ProjectDialogComponent {
+export class ProjectDialogComponent implements OnDestroy {
 
   images: Array<string>;
   isMobileScreen: boolean;
@@ -33,4 +33,7 @@ export class ProjectDialogComponent {
     this.dialogRef.close();
   }
 
+  ngOnDestroy() {
+    this.renderer.removeClass(document.body.parentElement, 'no-scroll');
+  }
 }

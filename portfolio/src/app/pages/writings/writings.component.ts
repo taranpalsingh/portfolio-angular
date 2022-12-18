@@ -19,7 +19,7 @@ export class WritingsComponent implements OnInit {
       {
         title: 'Research Paper published in IEEE Magazine',
         url: 'https://ieeexplore.ieee.org/document/9277277',
-        image: '../../../assets/images/ensembleLearning.png'
+        image: '../../../assets/images/certificates/ensembleLearning.png'
       }
     ];
 
