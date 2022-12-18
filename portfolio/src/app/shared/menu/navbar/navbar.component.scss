@@ -9,8 +9,7 @@
   background-color: #2a2a2a;
   z-index: 2;
   border-top: 1px solid white;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0;
 
   .nav-item{
     margin: 0;
@@ -18,6 +17,7 @@
     display: flex;
     text-align: center;
     color: white;
+    width: 20%;
 
     .icon{
       width: 50px;
@@ -33,11 +33,11 @@
     }
   }
   .nav-item.active {
-    width: 70px;
+    // width: 70px;
     color: #04C2C9 !important;
 
     .icon{
-      width: 60px;
+      width: 65px;
 
       .fa{
         font-size: 32px;

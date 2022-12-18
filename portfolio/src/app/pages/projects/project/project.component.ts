@@ -19,14 +19,14 @@ export class ProjectComponent {
 
   openDialog(): void {
 
-    let width = '40vw';
+    let width = '500px';
     if(this.appService.isMobileScreen()) {
       width = '90vw';
     }
 
     const dialogRef = this.dialog.open(ProjectDialogComponent, {
       width: width,
-      height: '90vh',
+      height: 'auto',
       data: {project: this.project}
     });
 

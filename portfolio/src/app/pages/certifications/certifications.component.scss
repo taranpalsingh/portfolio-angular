@@ -23,7 +23,7 @@
 
       .title {
         color: white;
-        font-size: 1.2vw;
+        font-size: 1em;
         margin: 10px 10px;
         text-align: center;
       }
@@ -32,7 +32,20 @@
 
   .footer {
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1em;
     margin: 50px;
+  }
+}
+
+@media (max-width: 600px){
+
+  .certificates {
+    padding-bottom: 80px;
+  
+    .certificates-container {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 25px;
+      margin: 0 2rem;
+    }
   }
 }

@@ -79,22 +79,25 @@
 @media (max-width: 600px){
 
   .profileImg {
-    height: 40vh;
+    height: 45vh;
+    border-radius: 25%;
   }
 
   
   .intro {
 
     p {
-      font-size: 1.4em;
+      font-size: 1.2em;
+      line-height: 120%;
     }
 
     a {
-      font-size: 1.4em;
+      font-size: 1.2em;
+      line-height: 120%;
     }
 
     .highlight {
-      font-weight: 500;
+      font-weight: 400;
       cursor: pointer;
       margin: 2px;
     }

@@ -1,19 +1,28 @@
 .heading {
-  font-size: 2vw;
+  font-size: 2.3vw;
   color: white;
   margin: 2vw auto;
+  margin-top: -10px;
   // text-decoration: underline;
 }
 
 img {
-  width: 200px;
+  width: 135px;
   height: 115px;
-  margin: 30px;
+  margin: 15px;
 }
 
-.cybergroup img{
-  width: 230px;
+
+.falcon img{
+  width: 250px;
   height: 100px;
+  margin: 3px;
+}
+
+
+.cybergroup img{
+  width: 200px;
+  height: 95px;
 }
 
 .loopcv {
@@ -39,5 +48,22 @@ img {
     vertical-align: middle;
     line-height: 100px;
     font-size: 2.3vw;
+  }
+}
+
+@media (max-width: 600px){
+  .heading {
+    font-size: 2.5em;
+    margin: 8vw auto 2vw auto;
+  }
+  
+  .falcon img{
+    width: 230px;
+    height: 90px;
+    margin: 10px;
+  }
+
+  img {
+    margin: 15px;
   }
 }
