@@ -4,7 +4,7 @@
     height: 100vh;
     // background-color: #1E1E30;
     // background-color: #323232;
-    background-color: #333333;
+    background-color: var(--secondary-background-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -88,3 +88,30 @@
 //         display: none;
 //     }
 // }
+
+
+
+
+
+
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100px;
+}
+
+
+
+
+.iconify{
+    width: 1.5rem;
+    height: 1.5rem;    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+}
