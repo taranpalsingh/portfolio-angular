@@ -1,0 +1,49 @@
+.footer {
+  background-color: #333333;
+  margin: 0 !important;
+}
+
+#contactLinks{
+  background-color: #1B242F;
+  height: auto;
+  color: white;
+}
+
+.contactIcons{
+  background-color: #04C2C9;
+  width: 2rem;  
+  height: 2rem;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.iconify{
+  width: 1.5rem;
+  height: 1.5rem;    
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: white;
+}
+
+.contactLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.copyright{
+  color: #8F9AA7;
+}
+
+@media(max-width: 700px){
+
+  .contactIcons{
+      width: 2em;
+      height: 2em;
+  }
+}

@@ -6,7 +6,7 @@ export const Constants = {
         url:"http://prepaid.kiteqa.com/",
         name:"Falcon Dart",
         title:"Falcon Dart",
-        images:["../../../assets/images/projects/kitePrepaid.png", "../../../assets/images/projects/falcon-logo.png"],
+        images:["../../../assets/images/projects/kitePrepaid.png", "../../../assets/images/projects/Prepaid2.PNG", "../../../assets/images/projects/Prepaid3.PNG"],
         description:"This is a resposive website made for Kite's Prepaid services and includes a dashboard view that is built using Angular. It has multiple screens and uses state of the art architecture. It's UI is self intuitive as well as filled with animations and smooth transitions. I was mainly responsible for developing the website using the UI/UX designs.", 
         technologies: ["HTML5", "CSS", "RxJs", "Angular", "Chart.Js", "Node", "Rest API"]
     },
@@ -43,10 +43,10 @@ export const Constants = {
         technologies: ["HTML5", "CSS", "RxJs", "Angular", "Chart.Js", "Node", "Rest API"]
     },
     {
-        url:null,
+        url: null,
         name:"Kite Tab",
         title:"Admin Tool for enterprise Finances",
-        images:["../../../assets/images/projects/kiteTab.png", "../../../assets/images/projects/Kite.PNG"],
+        images:["../../../assets/images/projects/kiteTab.png"],
         description:"This program lets you publish posts (Images in which you want to write some texts) to your social media accounts (Twitter, Facebook and Instagram). You just have to create a template of the post in the HTML file and you are good to go. This is helpful mostly for bloggers who want to post a specific template on a dailly basis. This program is built on Node.js.", 
         technologies: ["HTML5", "CSS", "RxJs", "Angular", "Chart.Js", "Node", "Rest API"]
     },
