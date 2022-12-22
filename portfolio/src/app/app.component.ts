@@ -9,8 +9,8 @@ export class AppComponent {
   title = 'portfolio';
 
   constructor() {
-    // document.documentElement.style.setProperty('--primary-color', '#121212');
     document.documentElement.style.setProperty('--secondary-background-color','#333333');
     document.documentElement.style.setProperty('--background-color', '#2a2a2a'); 
+    document.documentElement.style.setProperty('--highlight-color', '#04C2C9'); 
   }
 }

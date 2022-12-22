@@ -1,7 +1,10 @@
 <div class="navbar">
     <div class="nav-item" *ngFor="let navItem of navItems" routerLinkActive="active" [routerLink]="navItem.route">
-        <div class="icon">
+        <a class="iconify-container text-center">
+            <span class="mdi iconify" [attr.data-icon]="navItem.icon" data-inline="false"></span>
+        </a>
+        <!-- <div class="icon">
             <i class="fa" [class]="navItem.icon"></i>
-        </div>
+        </div> -->
     </div>
 </div>

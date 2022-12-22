@@ -21,7 +21,7 @@
   }
 
   a {
-    color: #04C2C9;
+    color: var(--highlight-color);
     font-size: 1.4vw;
   }
 
@@ -46,7 +46,7 @@
 // }
 
 // .techName{
-//   background-color: #04C2C9;
+//   background-color: var(--highlight-color);
 //   color: white;
 //   width: 110px;
 //   height: 28px;

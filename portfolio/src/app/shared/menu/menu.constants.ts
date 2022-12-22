@@ -3,27 +3,27 @@ import { constants } from "buffer";
 export const Constants = {
    navItems: [
     {
-      icon: "fa-home",
+      icon: "mdi-house-variant-outline",
       route: "home",
       label: "Home"
     },
     {
-      icon: "fa-user",
+      icon: "mdi-user-outline",
       route: "about",
       label: "About"
     },
     {
-      icon: "fa-file-code-o",
+      icon: "mdi-code-json",
       route: "projects",
       label: "Projects"
     },
     {
-      icon: "fa-book",
+      icon: "mdi-book-outline",
       route: "certificates",
       label: "Certificates"
     },
     {
-      icon: "fa-picture-o",
+      icon: "mdi-import-contacts",
       route: "writings",
       label: "Writings"
     }

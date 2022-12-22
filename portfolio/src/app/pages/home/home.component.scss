@@ -16,7 +16,8 @@ canvas{
 }
 
 #name{
-  color: #E31B6D;
+  // color: var(--highlight-color);
+  color: var(--highlight-color);
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -59,7 +60,7 @@ canvas{
   width: 2vw;
   height: 2vw;
   border: 1vw solid;
-  border-color: #E31B6D transparent transparent #E31B6D;
+  border-color: var(--highlight-color) transparent transparent var(--highlight-color);
   transform: rotate(-45deg);
 }
 
@@ -124,7 +125,7 @@ canvas{
     width: 6vw;
     height: 6vw;
     border: 3vw solid;
-    border-color: #E31B6D transparent transparent #E31B6D;
+    border-color: var(--highlight-color) transparent transparent var(--highlight-color);
     transform: rotate(-45deg);
   }
 

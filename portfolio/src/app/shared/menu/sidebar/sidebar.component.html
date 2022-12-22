@@ -4,9 +4,13 @@
     </div>
     <div class="nav-items">
         <div class="nav-item" *ngFor="let navItem of navItems" routerLinkActive="active" [routerLink]="navItem.route">
-            <div class="icon">
+            <a class="iconify-container text-center">
+                <span class="mdi iconify" [attr.data-icon]="navItem.icon" data-inline="false"></span>
+            </a>
+            
+            <!-- <div class="icon">
                 <i class="fa" [class]="navItem.icon"></i>
-            </div>
+            </div> -->
             <div class="label">
                 <p>{{navItem.label}}</p>
             </div>
@@ -16,6 +20,6 @@
     <div class="footer">
         <a href="mailto:taranpal.singh23@gmail.com">
             <span class="iconify" data-icon="mdi-email-variant" data-inline="false"></span>
-          </a>
+        </a>
     </div>
 </div>

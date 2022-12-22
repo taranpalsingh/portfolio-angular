@@ -10,7 +10,7 @@
 }
 
 .contactIcons{
-  background-color: #04C2C9;
+  background-color: var(--highlight-color);
   width: 2rem;  
   height: 2rem;
   margin: auto;

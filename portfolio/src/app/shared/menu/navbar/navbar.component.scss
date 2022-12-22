@@ -19,29 +19,27 @@
     color: white;
     width: 20%;
 
-    .icon{
-      width: 50px;
-      text-align: center;
-      align-self: center;
-      margin: auto;
-
-      cursor: pointer;
-      .fa{
-        font-size: 24px;
-        line-height: 60px;
-      }
+    .iconify-container {
+      height: 60px;
+      line-height: 60px;
+      width: 100px;
+    }
+    .iconify{
+        width: 1.6rem;
+        height: 30px;    
+        position: static;
+        margin: auto;
+        color: #6C757D;
+        cursor: pointer;
     }
   }
   .nav-item.active {
     // width: 70px;
-    color: #04C2C9 !important;
+    color: var(--highlight-color) !important;
 
-    .icon{
-      width: 65px;
-
-      .fa{
-        font-size: 32px;
-      }
+    .iconify {
+      width: 2.5rem;
+      color: var(--highlight-color) !important;
     }
   }
 }
