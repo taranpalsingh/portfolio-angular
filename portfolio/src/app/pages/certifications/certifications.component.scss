@@ -13,6 +13,7 @@
       background-color: #323232;
       border-radius: 6px;
       box-shadow: 8px 8px 1px rgb(0,0,0,0.2);
+      max-width: 380px;
 
       img {
         width: 100%;
@@ -37,7 +38,20 @@
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 1000px){
+
+  .certificates {
+  
+    .certificates-container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 25px;
+      margin: 0 2rem;
+    }
+  }
+}
+
+
+@media (max-width: 650px){
 
   .certificates {
     padding-bottom: 80px;

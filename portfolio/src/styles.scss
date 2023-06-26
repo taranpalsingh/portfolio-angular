@@ -1,6 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 /* @import "~bootstrap/scss/bootstrap"; */
 
+// $fs-400: clamp(1rem, calc(1vw + 0.5rem), 2rem);
+// $fs-500: clamp(1.2rem, calc(3vw + 0.5rem), 10rem);
+// $fs-400: 1rem;
+// // $fs-500: max(1.25rem, 1vw);
+// $fs-600: 4rem;
+
+$step-0: clamp(0.63rem, calc(0.32rem + 1.52vw), 1.50rem);
+$step-1: clamp(0.75rem, calc(0.36rem + 1.96vw), 1.88rem);
+$step-2: clamp(0.90rem, calc(0.40rem + 2.51vw), 2.34rem);
+$step-3: clamp(1.08rem, calc(0.44rem + 3.22vw), 2.93rem);
+$step-4: clamp(1.30rem, calc(0.47rem + 4.11vw), 3.66rem);
+$step-5: clamp(1.56rem, calc(0.50rem + 5.26vw), 4.58rem);
+
+// $fs--2: clamp(0.61rem, calc(0.48rem + 0.61vw), 0.96rem);
+// $fs--1: clamp(0.73rem, calc(0.57rem + 0.82vw), 1.20rem);
+// $fs-0: clamp(0.88rem, calc(0.66rem + 1.09vw), 1.50rem);
+// $fs-1: clamp(1.05rem, calc(0.76rem + 1.43vw), 1.88rem);
+// $fs-2: clamp(1.26rem, calc(0.88rem + 1.88vw), 2.34rem);
+// $fs-3: clamp(1.51rem, calc(1.02rem + 2.47vw), 2.93rem);
+// $fs-4: clamp(1.81rem, calc(1.17rem + 3.21vw), 3.66rem);
+// $fs-5: clamp(2.18rem, calc(1.34rem + 4.17vw), 4.58rem);
+
 body {
   font-family: MontSerrat,Tahoma,Arial,sans-serif;
 }
@@ -31,16 +53,23 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .page-heading {
-  font-size: 3vw !important;
+  // font-size: 3vw !important;
   text-align: center;
   margin: 3vw auto !important;
   color: white;
 
+  .title {
+    // font-size: $fs-600;
+    font-size: $step-5;
+    color: white;
+    margin-bottom: 1rem;
+  }
+
   .underline {
-    width: 200px;
+    width: 13rem;
     height: 3px;
     background-color: white;
-    margin: 2vw auto;
+    margin: 2rem auto;
   }
 }
 
