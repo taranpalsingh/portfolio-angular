@@ -134,6 +134,6 @@ export const projects = [
     ],
     tech: ['Angular', 'Chart.js', 'Node.js', 'MongoDB', 'Python', 'Twitter API'],
     image: '/assets/projects/Socialize.png',
-    images: ['/assets/projects/Socialize.png', '/assets/projects/socialMedia.png'],
+    images: ['/assets/projects/Socialize.png'],
   },
 ]
